@@ -1,0 +1,192 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box !important;
+}
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+  font-weight: inherit;
+}
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* my command */
+@font-face {  
+    font-family: SFPro; 
+    src: url('font/SFProText-Medium.ttf');  
+}  
+body{ 
+  font-family: SFPro; 
+  background-image: url("images/background.png");
+}
+.container{ 
+  margin: auto;
+  max-width: 1120px;
+  padding: 0 20px;
+}
+.header{
+  margin-top: 40px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  white-space: nowrap;
+}
+.top-menu-left{
+  gap: 28px;
+  float:left;
+  display: flex;
+  justify-content: space-between;
+}
+.duco-technic{
+  width: 160px;
+}
+.online-store{
+  width: 244px;
+}
+.store-text{
+  align:left;
+  margin-left: 50px;
+}
+
+.bt1{
+  height: 64px;
+  width: 244px;
+  background: white;
+  border-radius: 100px;  
+  font-size: 16px;
+  width: 100%;
+}
+.img-pt{
+  float:left;
+  margin-left: 20px;
+}
+.img-bt{
+  float: left;
+}
+.telephone{
+  display: flex;
+  justify-content: space-between;
+  float:right;
+}
+.phone1{
+  font-size: 26px;
+  font-weight: 130%;
+}
+.whatsap-block{
+  width: 256px;
+}
+.social{
+  width: 182px;
+}
+.bt2{
+  height: 64px;
+  width: 182px;
+  background: linear-gradient(84.32deg, #FE9E18 0%, #FE026E 50.96%, #A610D6 100%);
+  border-radius: 100px;  
+  width: 100%;
+}
+.whatsap-num{
+  color:#1AA84F;
+  font-size: 16px;
+  margin-left: 25px;
+  line-height: 130%;
+}
+.insta-text{
+  font-size: 24px;
+  color: white;
+}
+.technec-life{
+  font-size: 36px;
+  font-weight: 130%;
+  font-weight: bold;
+}
+.bodyes{
+  justify-content: space-between;
+  display: flex;
+  margin-top: 60px;
+}
+.left-zone{
+  float:left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.right-zone{
+  float: right;
+}
+.panel-left{
+  margin-bottom:36px;
+  width: 372px;
+}
+.information{
+width: 504;
+height: 158;
+}
+.marshrut{
+  font-size: 20px;
+  line-height: 130%;
+  margin-bottom:12px ;
+}
+.technec-life{
+  font-size: 36px;
+  margin-bottom:12px ;
+}
+.assortiment{
+  font-size: 20px;
+}
+.adress-text1{
+  margin-left:48px ;
+  font-size: 20px;
+  line-height: 130%;
+}
+.adress-text2{
+  margin-left: 48px;
+  margin-bottom: 20px;
+}
+.marshrut-bt{
+width: 372;
+height: 183;
+top: 417px;
+gap: 36px;
+display: inline-block;
+}
+.bt3{
+  float:left;
+  padding-top:12px;
+  background: white;
+  border-radius: 16px;  
+  width: 180px;
+}
+.img3{
+  border-radius: 20%;
+  transform: translateY(-5%);
+}
+.img4{
+  margin-left: 15px;
+  transform: translateY(-50%);
+  margin-bottom: 5px;
+}
+.bt4{
+  background: white;
+  border-radius: 16px;  
+  width: 180px;
+  height: 64px;
+}
+.img6{
+   transform: translateY(-10%);
+}
+.img7{
+width: 607px;
+height: 495px;
+}
+
+
+
